@@ -1,0 +1,44 @@
+{
+  "name": "@bunsn/boiler-bookmarklet",
+  "description": "A bookmarklet for scraping financial data on banking websites.",
+  "scripts": {
+    "test": "standard *.js ./lib/**/*.js",
+    "js": "browserify -do dist/app.js index.js && uglifyjs -m -c -o dist/app.min.js dist/app.js",
+    "build": "npm run js"
+  },
+  "dependencies": {
+    "@bunsn/boiler": "0.0.1"
+  },
+  "devDependencies": {
+    "bookmarklet": "0.0.4",
+    "browserify": "^11.0.1",
+    "standard": "^5.2.1",
+    "uglify-js": "^2.4.24"
+  },
+  "standard": {
+    "global": [
+      "Blob",
+      "URL"
+    ]
+  },
+  "version": "0.0.1",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bunsn/boiler-bookmarklet.git"
+  },
+  "keywords": [
+    "fintech",
+    "banking",
+    "scraper"
+  ],
+  "author": "Dom Christie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bunsn/boiler-bookmarklet/issues"
+  },
+  "homepage": "https://github.com/bunsn/boiler-bookmarklet#readme"
+}
