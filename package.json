@@ -7,7 +7,7 @@
     "build": "npm run js"
   },
   "dependencies": {
-    "@bunsn/boiler": "0.0.2"
+    "@bunsn/boiler": "0.0.3"
   },
   "devDependencies": {
     "bookmarklet": "0.0.4",
