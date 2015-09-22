@@ -15,3 +15,7 @@ Note: this is the development version, so is likely to change, and may be hosted
 ## License
 
 See the [LICENSE](LICENSE.md) file for license rights and limitations (ISC).
+
+***
+
+The Bunsn logo is adapted from the [Fire Flame Match Icon](https://www.iconfinder.com/icons/289617/fire_flame_match_icon) by [Pixel Buddha](http://pixelbuddha.net), and is licensed under [Creative Commons (Attribution 3.0 Unported)](http://creativecommons.org/licenses/by/3.0/)
