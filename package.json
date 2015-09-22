@@ -12,6 +12,7 @@
   "devDependencies": {
     "bookmarklet": "0.0.4",
     "browserify": "^11.0.1",
+    "mochify": "^2.13.0",
     "standard": "^5.2.1",
     "uglify-js": "^2.4.24"
   },
