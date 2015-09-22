@@ -1,8 +1,8 @@
 # Boiler Bookmarklet
 
-Download financial transaction as CSV with a bookmarklet.
+Download financial transactions as CSV with a bookmarklet.
 
-This implements [Boiler](https://github.com/bunsn/boiler) to scrape and download financial data from online banking websites. It currently only supports HSBC and NatWest (I believe), but it should be relatively easy to add support for your bank by writing a [statement definition](https://github.com/bunsn/boiler#statement-definitions).
+This implements [Boiler](https://github.com/bunsn/boiler) to format and download financial data from online banking websites. It currently supports Cater Allen, HSBC, and  NatWest (I believe), but it should be relatively easy to add support for your bank by writing a [statement definition](https://github.com/bunsn/boiler#statement-definitions).
 
 It has been designed to run as a bookmarklet, so to run it, add the following to your bookmarks:
 
